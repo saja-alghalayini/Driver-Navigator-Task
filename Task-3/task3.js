@@ -14,8 +14,8 @@ function palindrome (str){
 console.log("task3:");
 function palindrome( str )
   {
-    let ans =  palindrome(str);
-    if( ans == true )
+    let answer =  palindrome(str);
+    if( answer == true )
     {
       console.log(" true" );
     }
@@ -28,4 +28,4 @@ function palindrome( str )
   let m = 'ABCDCBA';
   palindrome(m);
 
-  document.getElementById("task3").innerHTML=True. the right answer is in the console;
+  document.getElementById("task3").innerHTML= 'the right answer is in the console';
