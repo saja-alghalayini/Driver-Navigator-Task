@@ -5,7 +5,7 @@
 //Example x = 2904;
 //Expected Output : 9420
 
-
+let decending=[2,9,0,4]
 function decend(array) 
 {
 for (let s = 0; s < array.length; s++)
@@ -23,5 +23,3 @@ for (let s = 0; s < array.length; s++)
  };
  return array;
 }
-
-document.getElementById("task3").innerHTML=decend(array);
